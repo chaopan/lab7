@@ -5,6 +5,9 @@ $(document).ready(function() {
 	initializePage();
 });
 
+function likeAction(){
+    ga("send", "event", "like", "click");
+}
 /*
  * Function that is called when the document is ready.
  */
